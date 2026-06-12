@@ -1,0 +1,501 @@
+PetID,PetType,Breed,AgeMonths,Color,Size,WeightKg,Vaccinated,HealthCondition,TimeInShelterDays,AdoptionFee,PreviousOwner,AdoptionLikelihood
+PET0001,Dog,Beagle,105,Brown,Small,25.11,1,0,325,150,0,1
+PET0002,Bird,Parakeet,49,White,Small,30.04,0,0,320,50,1,0
+PET0003,Cat,Persian,20,Brown,Large,1.88,1,0,157,0,1,1
+PET0004,Cat,Persian,118,Mixed,Small,35.85,0,1,156,25,0,0
+PET0005,Dog,Poodle,86,Gray,Large,34.48,0,0,139,25,0,1
+PET0006,Dog,Golden Retriever,92,Mixed,Small,18.57,1,1,121,50,1,0
+PET0007,Dog,Bulldog,63,Orange,Small,15.95,1,1,65,100,1,0
+PET0008,Rabbit,Flemish Giant,61,Mixed,Medium,11.28,1,1,107,50,0,0
+PET0009,Cat,Sphynx,104,Mixed,Medium,19.33,1,0,147,25,0,0
+PET0010,Cat,Siamese,49,Orange,Small,2.25,1,0,137,100,0,1
+PET0011,Dog,Bulldog,71,Brown,Medium,34.16,1,0,162,100,0,1
+PET0012,Bird,Finch,1,Orange,Medium,1.9,0,1,100,75,0,0
+PET0013,Rabbit,Holland Lop,96,Gray,Small,13.5,1,0,338,75,1,0
+PET0014,Dog,German Shepherd,13,Mixed,Small,37.3,1,0,307,50,0,0
+PET0015,Dog,Dachshund,94,Orange,Large,29.54,1,0,141,75,1,1
+PET0016,Dog,Rottweiler,87,Mixed,Medium,11.61,0,0,83,75,0,1
+PET0017,Dog,German Shepherd,51,Gray,Small,10.48,1,1,177,75,0,0
+PET0018,Cat,Maine Coon,56,White,Large,0.7,1,1,198,150,0,0
+PET0019,Dog,Poodle,83,Gray,Large,27.98,1,0,112,0,0,0
+PET0020,Dog,Chihuahua,62,Black,Medium,2.43,0,0,56,100,1,1
+PET0021,Cat,Scottish Fold,32,Black,Medium,21.54,1,0,179,25,1,0
+PET0022,Dog,Labrador,30,Black,Large,38.5,1,0,186,100,1,1
+PET0023,Dog,Beagle,29,Mixed,Large,4.82,1,0,218,100,1,1
+PET0024,Dog,Labrador,49,Brown,Large,35.83,1,1,316,100,1,0
+PET0025,Cat,Siamese,45,Brown,Medium,39.66,0,0,217,25,0,1
+PET0026,Cat,Scottish Fold,93,Brown,Medium,2.93,1,0,120,75,1,1
+PET0027,Dog,Labrador,30,Mixed,Medium,35.37,0,1,175,75,1,0
+PET0028,Cat,Maine Coon,16,Gray,Small,20.89,1,0,23,100,0,1
+PET0029,Cat,Bengal,40,Brown,Medium,36.31,1,0,213,75,1,1
+PET0030,Dog,Dachshund,19,White,Large,23.07,0,1,235,75,0,0
+PET0031,Cat,Abyssinian,18,Black,Medium,26.65,1,0,13,75,0,1
+PET0032,Dog,Yorkshire Terrier,1,Gray,Medium,21.98,0,1,101,50,1,1
+PET0033,Dog,Beagle,78,Black,Medium,34.65,0,1,24,75,0,0
+PET0034,Bird,Parrot,115,Brown,Small,29.49,1,1,364,25,0,0
+PET0035,Bird,Parrot,47,Gray,Medium,21.09,1,0,11,200,1,1
+PET0036,Rabbit,Holland Lop,114,Orange,Large,34.79,1,0,273,100,1,1
+PET0037,Dog,Labrador,66,White,Small,10.19,1,0,281,200,0,0
+PET0038,Dog,German Shepherd,118,Brown,Small,6.71,0,1,94,50,1,0
+PET0039,Cat,Persian,92,Brown,Large,6.84,0,1,201,150,0,0
+PET0040,Dog,Bulldog,113,White,Small,13.69,0,0,21,100,0,0
+PET0041,Dog,Labrador,114,White,Small,9.93,0,0,340,100,1,0
+PET0042,Cat,Bengal,94,Orange,Large,37.24,1,0,211,100,1,0
+PET0043,Dog,Chihuahua,38,Brown,Medium,4.68,1,0,140,50,0,0
+PET0044,Rabbit,Lionhead,51,Mixed,Medium,28.11,1,0,293,100,1,1
+PET0045,Dog,Labrador,63,Brown,Large,7.97,0,0,298,75,1,0
+PET0046,Cat,Bengal,4,Black,Small,35.32,1,1,101,25,0,1
+PET0047,Dog,Poodle,1,Gray,Medium,38.47,1,0,304,50,0,0
+PET0048,Cat,Sphynx,8,Gray,Medium,18.89,0,0,359,150,0,0
+PET0049,Cat,Maine Coon,29,Black,Large,35.22,1,0,28,150,1,0
+PET0050,Dog,Poodle,55,Gray,Medium,0.7,1,0,41,200,1,1
+PET0051,Bird,Finch,103,White,Medium,32.89,0,0,355,100,1,0
+PET0052,Cat,Bengal,3,Gray,Medium,9.53,1,0,303,50,1,1
+PET0053,Bird,Finch,32,Gray,Medium,36.39,1,1,146,50,1,1
+PET0054,Rabbit,Dutch,10,Black,Large,0.54,1,1,256,50,0,0
+PET0055,Cat,Siamese,74,Orange,Medium,22.47,1,0,227,0,0,0
+PET0056,Bird,Parrot,83,Gray,Medium,30.39,1,0,236,75,0,1
+PET0057,Dog,Labrador,110,Mixed,Medium,10.72,1,0,361,50,0,0
+PET0058,Dog,Poodle,34,Gray,Medium,8.13,1,0,13,75,1,1
+PET0059,Dog,Yorkshire Terrier,97,Orange,Medium,3.82,1,0,210,150,1,0
+PET0060,Dog,Labrador,87,Black,Large,13.39,1,0,229,75,0,1
+PET0061,Dog,Bulldog,55,Orange,Medium,22.61,1,0,100,150,0,1
+PET0062,Dog,Golden Retriever,92,Black,Large,5.08,1,0,31,100,1,1
+PET0063,Rabbit,Holland Lop,32,White,Large,15.38,0,0,16,50,0,1
+PET0064,Dog,Labrador,50,Black,Medium,0.86,0,1,137,75,0,0
+PET0065,Dog,Rottweiler,7,White,Medium,32.84,1,0,329,25,0,0
+PET0066,Cat,Scottish Fold,93,White,Large,5.57,1,0,166,50,0,0
+PET0067,Dog,German Shepherd,8,Black,Medium,11.69,0,0,310,100,1,0
+PET0068,Rabbit,Lionhead,65,Mixed,Large,1.23,0,1,100,25,0,0
+PET0069,Dog,Rottweiler,57,Brown,Medium,17.57,0,0,109,50,0,0
+PET0070,Bird,Cockatiel,119,Black,Medium,33.68,1,0,343,75,0,1
+PET0071,Cat,Siamese,67,Gray,Small,15.99,1,0,173,200,1,1
+PET0072,Dog,German Shepherd,88,Mixed,Medium,7.59,1,1,237,100,0,0
+PET0073,Dog,Beagle,87,Mixed,Large,30.27,1,0,162,100,0,0
+PET0074,Rabbit,Mini Rex,59,Gray,Medium,31.66,1,1,216,25,0,1
+PET0075,Cat,Maine Coon,72,Brown,Medium,7.36,1,1,264,100,0,1
+PET0076,Cat,Siamese,54,Mixed,Large,30.95,1,0,263,100,0,0
+PET0077,Cat,Ragdoll,111,White,Medium,37.92,0,1,292,100,1,1
+PET0078,Dog,Labrador,101,Brown,Medium,7.07,1,0,274,200,0,0
+PET0079,Dog,Beagle,67,Gray,Large,30.95,1,1,3,50,0,0
+PET0080,Dog,Poodle,51,Brown,Medium,28.49,1,0,28,150,1,1
+PET0081,Rabbit,Mini Rex,97,Black,Small,19.21,1,1,326,150,0,0
+PET0082,Cat,Persian,92,Brown,Medium,2.79,1,0,149,0,0,1
+PET0083,Dog,Labrador,111,White,Medium,3.45,1,0,28,75,0,0
+PET0084,Dog,Chihuahua,8,Black,Medium,34.17,0,0,310,200,1,0
+PET0085,Dog,Poodle,34,Orange,Medium,39.61,1,0,65,25,0,0
+PET0086,Dog,Poodle,35,Gray,Medium,27.2,1,0,356,75,1,0
+PET0087,Cat,Sphynx,96,Gray,Small,18.12,0,0,21,200,1,0
+PET0088,Cat,Siamese,88,Brown,Medium,26.08,0,0,252,75,0,0
+PET0089,Rabbit,Mini Rex,78,Mixed,Small,23.98,1,0,235,50,1,0
+PET0090,Cat,Maine Coon,32,Black,Medium,15.65,0,1,227,75,0,0
+PET0091,Dog,Chihuahua,46,Orange,Large,3.09,1,0,13,50,0,0
+PET0092,Cat,Sphynx,107,Black,Medium,32.95,1,0,313,75,1,0
+PET0093,Cat,Scottish Fold,16,Gray,Medium,15.19,1,0,49,25,1,0
+PET0094,Cat,Ragdoll,68,Black,Small,32.84,0,0,118,100,1,1
+PET0095,Cat,Siamese,116,Orange,Small,10.47,1,1,54,75,0,0
+PET0096,Cat,Sphynx,37,Mixed,Medium,0.54,0,0,138,100,0,0
+PET0097,Cat,Siamese,54,Brown,Small,6.78,0,0,53,100,1,1
+PET0098,Dog,German Shepherd,85,White,Medium,19.01,1,1,44,75,0,1
+PET0099,Dog,German Shepherd,14,Black,Small,37.8,1,1,303,100,0,0
+PET0100,Dog,Bulldog,95,White,Large,4.54,1,0,53,25,0,0
+PET0101,Dog,German Shepherd,55,Gray,Medium,34.24,1,1,74,75,0,1
+PET0102,Cat,Ragdoll,48,Brown,Small,21.32,0,1,46,50,1,0
+PET0103,Dog,Yorkshire Terrier,82,Brown,Large,33.12,0,0,13,150,0,0
+PET0104,Cat,Sphynx,7,Black,Small,12.29,1,0,165,25,1,1
+PET0105,Rabbit,Holland Lop,74,Mixed,Small,33.68,1,0,102,75,0,0
+PET0106,Dog,Rottweiler,7,Brown,Medium,31.03,1,0,280,100,1,0
+PET0107,Dog,Chihuahua,33,Black,Medium,9.59,0,0,258,75,0,0
+PET0108,Cat,Siamese,23,Black,Medium,5.69,1,0,337,25,0,0
+PET0109,Dog,Bulldog,85,White,Small,34.79,0,0,356,75,0,0
+PET0110,Dog,Labrador,19,Brown,Medium,38.55,0,0,138,100,0,1
+PET0111,Dog,Poodle,112,Black,Small,1.74,1,0,163,100,0,1
+PET0112,Dog,Golden Retriever,19,White,Small,29.39,0,0,111,75,1,1
+PET0113,Bird,Cockatiel,36,Orange,Large,36.43,0,0,102,75,1,0
+PET0114,Rabbit,Holland Lop,29,White,Medium,34.37,1,0,17,75,0,1
+PET0115,Cat,Siamese,60,White,Small,38.6,1,0,268,100,0,1
+PET0116,Rabbit,Holland Lop,82,Black,Medium,30.52,1,1,182,75,0,0
+PET0117,Rabbit,Lionhead,2,Gray,Small,17.97,0,0,24,75,0,0
+PET0118,Dog,Golden Retriever,1,Gray,Large,12.82,0,0,29,50,1,0
+PET0119,Rabbit,Flemish Giant,47,Mixed,Small,13.17,0,0,171,0,1,1
+PET0120,Cat,Siamese,69,Gray,Small,29.11,0,0,228,50,0,1
+PET0121,Rabbit,Flemish Giant,20,White,Medium,29.96,1,0,188,25,0,1
+PET0122,Rabbit,Dutch,11,Mixed,Medium,8.41,1,1,346,75,0,1
+PET0123,Dog,Bulldog,106,Black,Medium,34.79,1,1,230,100,1,1
+PET0124,Dog,Yorkshire Terrier,2,Brown,Small,28.74,1,0,321,50,0,1
+PET0125,Dog,Chihuahua,67,White,Small,22.73,1,0,340,150,1,0
+PET0126,Dog,Chihuahua,87,White,Medium,19.13,1,1,119,0,1,0
+PET0127,Rabbit,Mini Rex,119,Mixed,Small,21.96,1,0,156,100,0,0
+PET0128,Rabbit,Lionhead,12,Black,Large,6.79,1,0,272,100,1,0
+PET0129,Dog,Rottweiler,20,Orange,Small,8.55,1,1,175,75,0,0
+PET0130,Cat,Ragdoll,5,White,Medium,4.1,0,0,104,25,1,0
+PET0131,Dog,Rottweiler,37,Orange,Medium,6.57,1,0,92,100,0,1
+PET0132,Dog,Yorkshire Terrier,38,Orange,Small,18.42,1,0,186,75,0,1
+PET0133,Dog,Bulldog,94,Gray,Medium,21.45,0,1,283,150,1,0
+PET0134,Dog,Bulldog,9,Black,Large,1.21,0,0,181,75,1,1
+PET0135,Bird,Parrot,98,Orange,Small,31.97,1,0,170,150,1,0
+PET0136,Dog,German Shepherd,53,Black,Large,12.12,1,0,187,50,0,1
+PET0137,Cat,Bengal,44,Gray,Medium,36.52,1,0,175,100,1,0
+PET0138,Cat,Siamese,99,Black,Small,38.72,1,0,222,100,0,0
+PET0139,Dog,Bulldog,116,White,Medium,7.83,0,0,233,100,1,1
+PET0140,Bird,Parrot,86,Orange,Small,18.75,1,0,162,50,0,1
+PET0141,Bird,Finch,108,Black,Medium,0.55,1,0,134,100,1,0
+PET0142,Dog,Poodle,24,Brown,Large,24.13,1,1,224,75,1,0
+PET0143,Cat,Siamese,81,Black,Large,24.49,1,0,153,100,1,0
+PET0144,Dog,Dachshund,74,Orange,Large,10.28,0,1,33,50,0,0
+PET0145,Dog,Beagle,30,Gray,Large,22.56,0,0,55,150,0,0
+PET0146,Dog,Poodle,59,Gray,Medium,9.41,0,0,7,25,1,0
+PET0147,Cat,Sphynx,110,Orange,Small,6.85,1,0,244,100,0,0
+PET0148,Cat,Persian,87,White,Medium,26.24,0,1,313,150,1,0
+PET0149,Dog,Poodle,96,White,Small,13.37,1,0,126,100,0,0
+PET0150,Dog,Yorkshire Terrier,81,Gray,Medium,23.82,1,0,12,75,0,0
+PET0151,Rabbit,Lionhead,114,Gray,Medium,17.61,0,0,16,75,1,0
+PET0152,Dog,Dachshund,115,Orange,Small,39.38,0,0,208,200,1,0
+PET0153,Dog,German Shepherd,81,White,Small,6.41,0,0,43,50,0,0
+PET0154,Cat,Persian,14,Gray,Medium,18.85,1,1,135,75,0,1
+PET0155,Bird,Cockatiel,9,White,Medium,27.38,0,0,228,100,0,1
+PET0156,Dog,Yorkshire Terrier,40,Gray,Medium,16.12,1,1,111,100,1,0
+PET0157,Cat,Siamese,66,Black,Medium,39.0,1,0,307,50,0,0
+PET0158,Cat,Persian,109,Brown,Medium,29.01,1,0,160,100,1,0
+PET0159,Dog,Yorkshire Terrier,25,Mixed,Medium,26.45,1,0,331,100,1,1
+PET0160,Cat,Sphynx,103,Black,Small,30.4,1,0,264,25,0,0
+PET0161,Dog,Rottweiler,73,Mixed,Small,38.13,1,1,225,150,1,0
+PET0162,Cat,Sphynx,118,Gray,Medium,36.36,0,1,217,0,0,0
+PET0163,Cat,Maine Coon,22,Brown,Medium,29.11,0,0,45,75,0,0
+PET0164,Cat,Abyssinian,107,Brown,Small,30.09,1,0,214,0,1,0
+PET0165,Dog,Labrador,110,Gray,Medium,6.26,1,0,59,25,0,0
+PET0166,Rabbit,Dutch,4,Gray,Small,4.56,1,1,132,150,0,0
+PET0167,Dog,Golden Retriever,26,White,Medium,23.05,0,0,104,75,0,0
+PET0168,Dog,Labrador,58,Gray,Medium,1.23,0,0,195,75,0,0
+PET0169,Dog,Rottweiler,29,Orange,Medium,19.55,1,1,157,50,0,0
+PET0170,Cat,Persian,109,Gray,Large,8.81,0,0,98,75,1,0
+PET0171,Cat,Maine Coon,98,Orange,Small,14.17,1,0,226,75,1,0
+PET0172,Dog,Golden Retriever,87,Gray,Large,31.14,1,0,205,75,1,0
+PET0173,Cat,Abyssinian,37,White,Medium,37.68,1,1,79,50,0,1
+PET0174,Dog,Rottweiler,75,Orange,Medium,3.36,1,0,124,150,0,0
+PET0175,Cat,Sphynx,70,Black,Medium,21.6,1,0,218,75,0,1
+PET0176,Dog,Dachshund,18,Orange,Medium,35.36,0,0,4,75,0,0
+PET0177,Cat,Ragdoll,85,White,Medium,3.76,1,0,90,50,0,1
+PET0178,Dog,Chihuahua,42,Mixed,Medium,33.07,1,0,104,100,0,1
+PET0179,Bird,Cockatiel,100,Orange,Small,14.63,1,0,119,75,0,0
+PET0180,Dog,Dachshund,41,Gray,Small,13.22,0,0,133,75,0,1
+PET0181,Dog,Rottweiler,38,Gray,Medium,39.11,1,0,312,50,1,0
+PET0182,Dog,Bulldog,34,Mixed,Small,8.43,1,0,96,200,1,0
+PET0183,Bird,Parrot,17,White,Medium,27.88,0,0,331,50,1,0
+PET0184,Rabbit,Mini Rex,37,Brown,Small,32.95,0,1,143,100,1,0
+PET0185,Dog,German Shepherd,25,Gray,Medium,2.13,1,0,288,75,1,1
+PET0186,Cat,Siamese,102,Black,Large,26.98,1,1,28,50,0,0
+PET0187,Rabbit,Mini Rex,76,White,Large,38.09,1,1,278,100,0,0
+PET0188,Cat,Maine Coon,87,Orange,Medium,5.41,0,0,233,50,1,0
+PET0189,Cat,Abyssinian,117,Orange,Medium,35.9,0,0,17,150,1,0
+PET0190,Dog,Yorkshire Terrier,106,Black,Large,23.99,1,0,59,150,1,1
+PET0191,Dog,Chihuahua,86,Gray,Medium,24.86,1,0,90,150,1,0
+PET0192,Rabbit,Flemish Giant,85,White,Small,24.71,1,0,199,0,0,0
+PET0193,Rabbit,Lionhead,27,Black,Large,12.3,1,0,362,100,1,1
+PET0194,Cat,Siamese,57,Gray,Medium,37.44,1,0,26,75,1,1
+PET0195,Dog,Chihuahua,31,White,Medium,37.92,1,1,25,150,0,0
+PET0196,Dog,Yorkshire Terrier,6,Orange,Small,25.2,1,0,301,100,1,1
+PET0197,Cat,Persian,91,White,Small,31.45,1,1,339,100,0,0
+PET0198,Rabbit,Dutch,40,Mixed,Large,24.68,1,0,267,75,1,0
+PET0199,Rabbit,Lionhead,98,Brown,Medium,19.63,1,1,181,75,1,1
+PET0200,Cat,Persian,12,White,Small,26.6,1,0,360,25,0,1
+PET0201,Cat,Persian,109,Brown,Small,22.34,0,0,68,100,1,0
+PET0202,Dog,Golden Retriever,53,White,Medium,24.1,1,0,351,75,0,0
+PET0203,Dog,Yorkshire Terrier,71,Brown,Medium,31.46,0,0,321,75,1,0
+PET0204,Rabbit,Lionhead,10,Mixed,Small,19.5,1,0,49,100,0,0
+PET0205,Cat,Siamese,45,Orange,Large,2.11,1,1,175,75,1,0
+PET0206,Dog,Bulldog,17,Gray,Small,6.98,1,0,52,50,0,0
+PET0207,Dog,Yorkshire Terrier,26,Brown,Medium,17.82,0,0,102,75,1,0
+PET0208,Cat,Bengal,85,Mixed,Medium,29.13,1,0,216,75,0,0
+PET0209,Dog,German Shepherd,92,Brown,Small,23.93,1,1,188,75,1,0
+PET0210,Dog,Golden Retriever,62,Orange,Large,26.19,0,0,57,0,1,1
+PET0211,Cat,Abyssinian,46,Brown,Medium,19.43,0,0,47,50,1,0
+PET0212,Cat,Sphynx,64,Mixed,Large,24.82,0,0,159,50,1,0
+PET0213,Cat,Siamese,2,Mixed,Small,13.5,0,0,174,100,1,1
+PET0214,Dog,Rottweiler,54,Black,Small,19.07,1,0,242,0,0,1
+PET0215,Cat,Scottish Fold,107,Orange,Small,29.9,1,1,282,75,0,0
+PET0216,Dog,Labrador,65,Black,Medium,34.94,1,0,241,150,0,0
+PET0217,Dog,Bulldog,51,Orange,Medium,17.63,1,1,5,25,1,0
+PET0218,Cat,Siamese,53,Brown,Large,2.22,0,0,84,75,1,1
+PET0219,Cat,Persian,36,Mixed,Medium,6.89,1,0,308,100,0,1
+PET0220,Rabbit,Flemish Giant,115,Black,Large,1.32,0,1,361,150,1,0
+PET0221,Cat,Sphynx,26,Brown,Medium,26.3,1,0,248,100,1,0
+PET0222,Cat,Ragdoll,29,Mixed,Small,13.63,1,1,54,100,1,0
+PET0223,Dog,Dachshund,21,Orange,Small,21.93,1,0,161,100,0,0
+PET0224,Dog,German Shepherd,11,Mixed,Medium,19.98,1,0,226,75,0,1
+PET0225,Dog,Rottweiler,40,Brown,Small,3.72,0,1,15,100,0,0
+PET0226,Dog,Beagle,11,Black,Small,16.43,0,0,224,0,1,0
+PET0227,Bird,Finch,36,Black,Medium,9.21,0,0,61,150,0,0
+PET0228,Dog,Yorkshire Terrier,113,Mixed,Large,17.03,1,0,122,75,0,0
+PET0229,Rabbit,Holland Lop,59,Brown,Small,8.54,0,0,277,75,1,0
+PET0230,Cat,Bengal,39,White,Large,33.7,1,1,46,50,1,0
+PET0231,Cat,Sphynx,104,Orange,Large,7.38,1,0,294,100,1,0
+PET0232,Cat,Bengal,99,Orange,Medium,38.45,1,0,62,25,0,1
+PET0233,Cat,Sphynx,54,Brown,Small,16.93,0,0,86,150,0,0
+PET0234,Cat,Sphynx,98,White,Small,33.93,0,0,210,100,1,0
+PET0235,Dog,Chihuahua,55,Black,Medium,25.34,1,0,78,50,0,0
+PET0236,Cat,Scottish Fold,111,Gray,Medium,29.55,1,0,202,100,0,0
+PET0237,Dog,Golden Retriever,24,Gray,Large,30.83,1,1,302,100,0,0
+PET0238,Dog,Rottweiler,118,Brown,Medium,20.44,0,0,223,100,0,1
+PET0239,Cat,Abyssinian,22,White,Small,21.96,1,0,222,75,0,0
+PET0240,Dog,Yorkshire Terrier,69,White,Small,20.8,1,0,3,50,0,0
+PET0241,Bird,Parrot,56,Orange,Medium,23.73,1,0,6,50,0,0
+PET0242,Bird,Parrot,33,Black,Small,1.66,1,0,93,50,0,1
+PET0243,Rabbit,Flemish Giant,36,Mixed,Small,16.12,0,0,8,150,1,0
+PET0244,Dog,Golden Retriever,111,White,Medium,24.44,1,0,235,25,0,0
+PET0245,Dog,Rottweiler,20,Mixed,Small,24.11,1,0,108,100,1,1
+PET0246,Bird,Cockatiel,83,Gray,Small,31.82,0,0,161,50,0,0
+PET0247,Dog,Golden Retriever,99,Mixed,Medium,26.37,1,1,209,75,0,0
+PET0248,Bird,Canary,116,Black,Small,39.69,1,1,240,100,1,0
+PET0249,Bird,Parrot,107,Black,Small,11.71,1,1,331,150,0,0
+PET0250,Rabbit,Lionhead,81,Mixed,Medium,14.69,0,0,333,50,0,0
+PET0251,Dog,Beagle,62,Brown,Large,15.66,0,0,50,75,0,0
+PET0252,Dog,Beagle,109,White,Small,18.9,1,0,11,75,1,0
+PET0253,Rabbit,Holland Lop,107,Brown,Large,33.52,1,0,351,0,0,0
+PET0254,Dog,Rottweiler,98,Mixed,Medium,9.81,0,0,156,50,0,0
+PET0255,Dog,Beagle,73,White,Medium,31.15,1,1,70,75,1,0
+PET0256,Cat,Maine Coon,26,Orange,Large,16.51,1,1,169,75,0,0
+PET0257,Bird,Parakeet,66,Brown,Medium,24.27,0,0,272,100,0,1
+PET0258,Cat,Siamese,117,Brown,Large,25.49,1,0,68,75,0,1
+PET0259,Cat,Abyssinian,73,Mixed,Small,15.23,0,1,355,75,1,0
+PET0260,Dog,Rottweiler,73,Gray,Small,20.75,1,0,252,75,0,0
+PET0261,Cat,Siamese,40,Mixed,Large,16.81,1,0,48,100,0,0
+PET0262,Bird,Parrot,17,Brown,Medium,3.23,0,1,184,150,0,0
+PET0263,Dog,Poodle,1,White,Small,17.77,1,0,320,75,1,1
+PET0264,Cat,Sphynx,89,Gray,Medium,4.35,1,0,187,100,0,0
+PET0265,Rabbit,Dutch,61,Mixed,Large,16.5,1,0,90,50,1,0
+PET0266,Cat,Sphynx,43,Mixed,Large,23.92,1,1,332,75,0,1
+PET0267,Cat,Ragdoll,104,Brown,Small,23.39,1,0,139,50,1,0
+PET0268,Cat,Maine Coon,42,Brown,Large,26.67,0,0,357,75,1,0
+PET0269,Dog,Golden Retriever,25,Orange,Small,4.26,0,0,89,100,0,1
+PET0270,Dog,Labrador,39,Mixed,Small,26.26,0,0,274,150,0,0
+PET0271,Rabbit,Lionhead,35,Brown,Medium,12.83,1,0,19,25,0,1
+PET0272,Rabbit,Holland Lop,3,Black,Small,16.26,1,1,311,100,0,0
+PET0273,Rabbit,Lionhead,114,Gray,Small,34.39,1,0,358,75,1,0
+PET0274,Rabbit,Holland Lop,101,Black,Medium,0.86,0,1,154,25,0,0
+PET0275,Cat,Siamese,108,Gray,Small,23.74,1,0,260,50,0,0
+PET0276,Cat,Sphynx,44,Mixed,Small,24.15,1,0,108,50,0,1
+PET0277,Cat,Scottish Fold,51,Orange,Small,16.17,1,0,285,50,1,0
+PET0278,Cat,Sphynx,94,Brown,Medium,9.86,1,0,59,50,0,0
+PET0279,Cat,Bengal,102,Brown,Medium,9.77,0,0,125,50,0,0
+PET0280,Cat,Sphynx,98,Brown,Large,35.41,0,0,354,50,0,0
+PET0281,Rabbit,Mini Rex,12,Mixed,Large,17.96,1,0,273,100,1,0
+PET0282,Dog,Golden Retriever,19,Gray,Medium,13.57,1,0,107,75,1,0
+PET0283,Dog,Bulldog,101,Brown,Large,18.23,1,0,299,200,0,0
+PET0284,Dog,Labrador,44,Black,Small,26.94,1,1,245,75,0,0
+PET0285,Cat,Sphynx,59,Brown,Small,6.26,1,1,336,100,0,0
+PET0286,Dog,German Shepherd,49,Mixed,Large,18.25,1,0,247,150,0,0
+PET0287,Cat,Scottish Fold,61,Orange,Medium,23.72,1,0,8,100,1,0
+PET0288,Cat,Siamese,17,Black,Large,37.97,1,0,141,75,1,1
+PET0289,Dog,Poodle,74,Brown,Medium,10.47,1,0,362,100,0,0
+PET0290,Cat,Abyssinian,57,Brown,Large,14.69,1,0,8,50,1,0
+PET0291,Dog,Dachshund,55,White,Medium,15.48,1,1,352,50,0,0
+PET0292,Dog,German Shepherd,113,Gray,Medium,24.42,1,0,94,75,1,1
+PET0293,Rabbit,Flemish Giant,47,Black,Medium,14.59,1,0,321,75,1,0
+PET0294,Dog,Rottweiler,12,White,Medium,21.57,0,1,39,0,0,0
+PET0295,Dog,German Shepherd,62,Orange,Medium,31.38,1,0,81,150,1,0
+PET0296,Cat,Ragdoll,80,Gray,Large,28.36,1,1,187,100,0,0
+PET0297,Cat,Persian,88,Black,Small,18.13,1,0,84,75,0,1
+PET0298,Dog,Poodle,83,Brown,Small,34.64,1,0,88,150,0,1
+PET0299,Cat,Persian,8,Black,Medium,22.55,1,0,242,75,0,1
+PET0300,Dog,Labrador,95,Brown,Medium,21.83,1,0,342,200,1,0
+PET0301,Dog,Yorkshire Terrier,21,Gray,Large,1.85,1,1,93,75,1,1
+PET0302,Cat,Maine Coon,81,Brown,Small,39.47,0,0,86,25,1,1
+PET0303,Cat,Abyssinian,87,Orange,Medium,5.36,1,1,44,100,1,0
+PET0304,Cat,Scottish Fold,101,Mixed,Medium,9.63,1,0,137,100,1,0
+PET0305,Cat,Sphynx,118,Brown,Medium,2.54,1,0,74,100,0,0
+PET0306,Bird,Parrot,80,Orange,Large,25.78,0,0,36,200,0,0
+PET0307,Cat,Sphynx,70,Mixed,Small,9.38,0,0,101,100,0,1
+PET0308,Dog,Labrador,72,Gray,Medium,7.61,1,1,156,100,1,0
+PET0309,Cat,Bengal,25,Gray,Large,4.0,0,0,255,150,1,0
+PET0310,Dog,German Shepherd,82,Black,Large,4.58,0,0,171,100,0,0
+PET0311,Dog,Poodle,89,Orange,Medium,23.59,0,0,216,75,1,0
+PET0312,Dog,Rottweiler,12,Orange,Medium,27.68,0,0,170,150,1,0
+PET0313,Dog,Yorkshire Terrier,15,White,Small,16.2,0,0,252,50,0,0
+PET0314,Bird,Cockatiel,59,White,Medium,19.46,1,0,360,100,0,0
+PET0315,Rabbit,Lionhead,26,Mixed,Large,27.6,1,1,322,150,0,1
+PET0316,Cat,Maine Coon,105,Mixed,Medium,1.19,1,0,55,100,0,1
+PET0317,Dog,Bulldog,109,White,Small,13.26,1,0,91,100,0,1
+PET0318,Dog,Labrador,26,Mixed,Small,38.94,1,0,278,100,0,1
+PET0319,Dog,Rottweiler,47,Brown,Small,23.41,0,0,101,75,0,0
+PET0320,Dog,Beagle,32,White,Small,10.54,0,1,155,150,0,0
+PET0321,Cat,Ragdoll,10,Orange,Small,21.11,1,0,349,50,1,0
+PET0322,Cat,Scottish Fold,16,Brown,Medium,14.03,0,0,364,25,0,0
+PET0323,Cat,Bengal,71,Mixed,Small,21.52,1,0,141,50,1,1
+PET0324,Dog,Rottweiler,17,Gray,Small,5.47,1,0,173,75,0,0
+PET0325,Bird,Parrot,23,Black,Medium,5.74,1,0,10,75,0,1
+PET0326,Cat,Persian,26,White,Small,6.17,0,1,228,100,1,0
+PET0327,Cat,Bengal,85,Gray,Small,37.62,1,1,265,75,0,0
+PET0328,Cat,Sphynx,86,Mixed,Small,29.45,1,1,248,75,0,0
+PET0329,Dog,Bulldog,7,Orange,Small,6.91,0,0,247,0,1,1
+PET0330,Dog,Poodle,14,Black,Medium,7.94,1,0,155,75,0,1
+PET0331,Dog,Poodle,79,Gray,Small,29.37,1,0,34,100,0,1
+PET0332,Cat,Bengal,117,Black,Large,6.67,1,0,129,0,0,1
+PET0333,Dog,Bulldog,7,White,Large,9.77,0,1,160,50,0,0
+PET0334,Dog,Dachshund,9,Mixed,Medium,38.55,1,0,89,50,0,1
+PET0335,Dog,Golden Retriever,115,Orange,Medium,10.58,1,1,93,0,0,0
+PET0336,Dog,Yorkshire Terrier,48,Mixed,Large,26.63,1,0,327,75,1,0
+PET0337,Rabbit,Flemish Giant,72,Black,Medium,39.16,0,0,241,50,1,0
+PET0338,Cat,Siamese,114,Gray,Small,15.28,1,0,323,100,1,1
+PET0339,Cat,Persian,59,White,Medium,1.19,0,0,117,100,1,1
+PET0340,Dog,German Shepherd,87,White,Large,10.14,1,0,94,75,1,0
+PET0341,Cat,Scottish Fold,93,Mixed,Small,33.32,0,1,163,200,0,0
+PET0342,Cat,Scottish Fold,82,Gray,Small,34.65,1,0,99,75,1,0
+PET0343,Dog,Chihuahua,95,Gray,Medium,30.86,1,0,113,75,1,1
+PET0344,Dog,Rottweiler,94,Black,Large,4.97,1,0,359,200,1,0
+PET0345,Dog,Bulldog,116,Mixed,Small,31.92,0,1,91,50,0,0
+PET0346,Cat,Bengal,39,Mixed,Medium,36.79,0,0,346,150,0,0
+PET0347,Cat,Sphynx,99,Brown,Small,24.22,1,1,206,0,0,0
+PET0348,Dog,Labrador,18,Mixed,Medium,37.66,1,0,17,75,1,0
+PET0349,Dog,Chihuahua,59,White,Small,33.16,0,1,274,25,0,0
+PET0350,Cat,Abyssinian,106,Black,Small,26.85,1,0,173,100,1,1
+PET0351,Cat,Abyssinian,103,Gray,Large,23.3,1,0,116,100,0,0
+PET0352,Rabbit,Holland Lop,17,Mixed,Medium,14.27,1,0,349,100,0,0
+PET0353,Cat,Persian,14,Black,Medium,6.79,1,1,181,75,0,0
+PET0354,Dog,Labrador,31,Mixed,Medium,24.4,1,0,91,75,0,1
+PET0355,Dog,Labrador,24,Gray,Small,13.07,0,0,82,0,0,1
+PET0356,Cat,Abyssinian,99,Orange,Medium,34.72,1,0,324,50,0,0
+PET0357,Dog,Chihuahua,108,Gray,Small,39.74,1,1,114,150,1,0
+PET0358,Cat,Siamese,60,Gray,Medium,30.22,0,0,257,75,0,0
+PET0359,Bird,Finch,45,Gray,Small,4.07,1,1,58,100,0,0
+PET0360,Cat,Scottish Fold,98,Mixed,Medium,11.9,1,0,154,100,1,0
+PET0361,Dog,Rottweiler,3,Brown,Large,4.81,1,0,116,75,1,0
+PET0362,Cat,Maine Coon,37,Gray,Large,26.2,1,0,343,100,1,0
+PET0363,Cat,Abyssinian,43,White,Medium,30.73,1,0,266,25,0,0
+PET0364,Cat,Maine Coon,40,White,Small,37.06,1,0,315,25,1,0
+PET0365,Bird,Parrot,90,Black,Medium,17.81,0,0,203,0,1,0
+PET0366,Dog,Chihuahua,55,Brown,Large,36.1,1,0,41,75,0,1
+PET0367,Bird,Parrot,87,Black,Small,35.18,0,0,105,75,0,0
+PET0368,Rabbit,Dutch,108,White,Large,13.03,1,0,193,75,0,1
+PET0369,Dog,Golden Retriever,39,White,Small,34.82,1,0,278,75,0,0
+PET0370,Dog,Labrador,15,Orange,Large,15.34,1,0,354,75,1,0
+PET0371,Dog,Golden Retriever,113,Gray,Large,12.23,1,0,237,100,0,1
+PET0372,Dog,Chihuahua,4,White,Large,26.14,1,1,221,100,1,0
+PET0373,Dog,Golden Retriever,93,Mixed,Small,13.47,1,1,68,0,0,1
+PET0374,Cat,Bengal,86,Mixed,Small,25.39,1,0,197,50,0,1
+PET0375,Dog,Beagle,25,Black,Medium,24.59,0,0,256,100,0,0
+PET0376,Dog,Yorkshire Terrier,13,Black,Small,22.76,1,1,139,75,0,0
+PET0377,Rabbit,Holland Lop,82,Gray,Small,15.53,1,0,312,100,1,0
+PET0378,Dog,Poodle,33,Gray,Medium,22.17,1,0,149,50,1,1
+PET0379,Rabbit,Mini Rex,16,Orange,Medium,24.06,0,0,99,75,0,1
+PET0380,Dog,Chihuahua,109,Brown,Medium,22.05,0,0,76,50,0,1
+PET0381,Dog,Labrador,42,Black,Medium,18.05,0,0,282,50,0,0
+PET0382,Cat,Sphynx,108,Gray,Small,1.08,0,0,109,100,1,0
+PET0383,Cat,Ragdoll,66,Black,Large,23.69,1,0,188,75,0,0
+PET0384,Rabbit,Dutch,55,Gray,Small,7.15,1,1,199,100,0,0
+PET0385,Cat,Siamese,99,White,Medium,25.88,1,0,303,150,1,0
+PET0386,Rabbit,Flemish Giant,42,Black,Medium,30.49,0,0,327,75,1,0
+PET0387,Dog,Dachshund,34,White,Large,20.27,0,1,154,100,0,0
+PET0388,Dog,Labrador,30,Black,Small,21.92,0,0,40,50,0,1
+PET0389,Cat,Sphynx,119,Brown,Medium,38.08,0,0,133,75,1,0
+PET0390,Rabbit,Flemish Giant,13,Orange,Medium,33.96,0,0,132,100,1,0
+PET0391,Bird,Canary,13,Mixed,Small,36.61,0,0,279,75,0,1
+PET0392,Dog,Rottweiler,18,Mixed,Medium,32.64,1,1,362,75,1,0
+PET0393,Dog,Golden Retriever,32,Mixed,Large,4.8,1,0,84,50,1,0
+PET0394,Cat,Scottish Fold,96,White,Large,6.39,1,1,242,75,0,0
+PET0395,Dog,Rottweiler,99,Gray,Small,21.3,1,0,116,150,0,0
+PET0396,Bird,Finch,39,Mixed,Small,10.22,1,0,109,150,0,1
+PET0397,Rabbit,Flemish Giant,46,Brown,Small,19.33,0,0,221,100,1,0
+PET0398,Dog,Golden Retriever,116,Mixed,Medium,16.08,0,0,41,100,0,0
+PET0399,Cat,Ragdoll,29,Black,Small,22.2,1,0,147,75,1,1
+PET0400,Cat,Bengal,62,White,Small,30.0,0,0,112,75,1,0
+PET0401,Dog,German Shepherd,113,Black,Large,28.76,1,0,103,25,0,1
+PET0402,Rabbit,Mini Rex,93,Black,Large,21.09,1,0,46,75,1,0
+PET0403,Cat,Abyssinian,62,Black,Small,32.98,1,1,324,75,1,1
+PET0404,Rabbit,Mini Rex,117,Orange,Small,17.52,1,0,271,200,0,0
+PET0405,Dog,Bulldog,108,Orange,Medium,35.92,1,0,195,75,0,0
+PET0406,Rabbit,Lionhead,57,Gray,Small,3.32,0,1,280,75,0,0
+PET0407,Dog,Golden Retriever,16,White,Medium,38.21,0,1,283,75,1,0
+PET0408,Dog,Dachshund,56,Brown,Medium,26.36,1,0,40,100,1,0
+PET0409,Rabbit,Mini Rex,108,Brown,Large,15.51,1,1,189,100,0,0
+PET0410,Dog,Poodle,111,Brown,Medium,8.29,0,0,164,50,1,0
+PET0411,Dog,Golden Retriever,10,Black,Medium,19.43,1,0,24,75,0,0
+PET0412,Bird,Parrot,30,Orange,Medium,8.19,1,0,24,100,0,1
+PET0413,Bird,Cockatiel,25,White,Small,7.07,1,1,4,75,0,1
+PET0414,Cat,Scottish Fold,103,Black,Medium,24.89,1,0,323,50,0,0
+PET0415,Cat,Sphynx,84,Orange,Medium,21.16,1,0,290,100,0,1
+PET0416,Dog,Beagle,5,Orange,Small,26.97,1,0,181,100,0,0
+PET0417,Dog,Rottweiler,65,Mixed,Small,37.22,1,1,248,25,0,0
+PET0418,Dog,Chihuahua,94,Mixed,Small,21.52,0,1,116,100,1,0
+PET0419,Cat,Abyssinian,49,White,Large,23.45,1,0,279,100,0,0
+PET0420,Cat,Siamese,3,White,Small,4.04,0,1,69,75,0,0
+PET0421,Cat,Sphynx,45,White,Small,28.85,1,0,351,200,0,0
+PET0422,Cat,Maine Coon,14,Black,Medium,16.3,1,0,254,100,1,1
+PET0423,Dog,Dachshund,30,Gray,Medium,39.08,1,0,181,100,0,0
+PET0424,Cat,Bengal,114,White,Small,33.02,1,0,318,100,0,1
+PET0425,Dog,Rottweiler,68,Mixed,Large,21.14,0,0,169,50,1,1
+PET0426,Cat,Sphynx,18,Gray,Large,5.37,0,0,313,50,0,0
+PET0427,Dog,German Shepherd,62,Black,Medium,34.45,1,0,249,75,0,0
+PET0428,Rabbit,Holland Lop,37,Gray,Medium,32.09,1,1,188,50,1,0
+PET0429,Dog,Labrador,25,Brown,Small,7.79,0,1,54,75,0,0
+PET0430,Dog,Rottweiler,48,Gray,Small,12.16,1,1,326,150,0,0
+PET0431,Dog,Golden Retriever,65,White,Large,31.84,1,1,357,100,0,1
+PET0432,Cat,Scottish Fold,53,Black,Small,7.82,1,0,313,100,0,0
+PET0433,Cat,Ragdoll,110,White,Small,36.75,0,0,138,150,0,0
+PET0434,Dog,Poodle,79,Mixed,Medium,17.27,1,0,168,100,0,0
+PET0435,Dog,Rottweiler,73,Brown,Small,3.94,1,0,103,75,0,0
+PET0436,Cat,Bengal,15,Mixed,Large,32.72,1,0,85,50,0,0
+PET0437,Dog,Rottweiler,49,White,Small,15.25,1,0,317,75,1,0
+PET0438,Rabbit,Dutch,88,White,Large,21.3,1,0,212,100,0,1
+PET0439,Cat,Persian,68,White,Medium,4.94,0,0,3,75,0,0
+PET0440,Dog,Dachshund,12,Orange,Large,0.6,1,0,179,100,1,0
+PET0441,Dog,Yorkshire Terrier,59,Brown,Small,25.7,1,0,342,25,1,0
+PET0442,Bird,Parrot,37,White,Medium,20.85,0,0,303,100,0,0
+PET0443,Dog,Rottweiler,61,White,Large,23.94,1,0,332,100,1,0
+PET0444,Dog,Yorkshire Terrier,101,Mixed,Medium,31.85,0,0,38,100,0,0
+PET0445,Rabbit,Mini Rex,43,Mixed,Medium,26.04,0,0,239,200,0,0
+PET0446,Bird,Parakeet,70,White,Medium,7.4,1,1,169,100,1,0
+PET0447,Bird,Finch,39,Black,Medium,14.75,1,0,343,150,0,1
+PET0448,Cat,Bengal,56,Orange,Medium,36.28,1,0,314,150,0,1
+PET0449,Dog,Dachshund,63,Mixed,Large,30.91,0,1,306,100,0,0
+PET0450,Dog,Golden Retriever,46,Black,Small,22.49,1,0,30,100,0,0
+PET0451,Cat,Sphynx,88,Orange,Medium,10.6,0,0,190,0,0,1
+PET0452,Cat,Abyssinian,11,White,Large,12.43,1,0,357,75,1,0
+PET0453,Dog,Yorkshire Terrier,62,Brown,Medium,29.41,1,0,25,75,0,1
+PET0454,Rabbit,Holland Lop,77,Gray,Large,34.12,1,0,112,50,1,1
+PET0455,Dog,Beagle,98,Gray,Large,27.02,1,0,206,50,0,0
+PET0456,Cat,Abyssinian,25,White,Medium,32.48,1,1,185,200,1,1
+PET0457,Dog,Bulldog,71,Mixed,Small,30.78,1,0,47,150,1,1
+PET0458,Cat,Scottish Fold,52,Black,Small,6.41,1,0,228,100,1,1
+PET0459,Dog,Poodle,4,Brown,Medium,17.25,1,0,39,75,0,0
+PET0460,Dog,Yorkshire Terrier,59,Orange,Large,6.54,1,0,16,0,0,1
+PET0461,Dog,Poodle,72,White,Small,9.79,0,0,22,25,0,0
+PET0462,Cat,Persian,20,Brown,Small,34.84,0,0,213,50,1,0
+PET0463,Cat,Siamese,93,Brown,Small,19.18,1,1,310,0,1,1
+PET0464,Cat,Ragdoll,63,Mixed,Large,21.65,0,0,149,0,0,0
+PET0465,Bird,Parakeet,54,Orange,Small,7.55,0,0,241,150,0,1
+PET0466,Dog,Poodle,117,Brown,Medium,12.83,1,0,272,100,0,0
+PET0467,Dog,Dachshund,115,Mixed,Medium,9.59,1,0,59,50,1,0
+PET0468,Rabbit,Holland Lop,109,Black,Large,8.64,1,0,287,25,0,0
+PET0469,Dog,Bulldog,110,Mixed,Medium,25.7,1,1,202,75,1,1
+PET0470,Bird,Canary,74,Black,Medium,10.65,1,0,32,0,1,0
+PET0471,Dog,Yorkshire Terrier,107,Black,Small,25.46,0,0,162,150,0,0
+PET0472,Bird,Cockatiel,98,Brown,Medium,2.81,1,1,255,75,0,1
+PET0473,Dog,Beagle,57,Mixed,Medium,6.1,0,0,254,75,0,0
+PET0474,Rabbit,Dutch,90,Black,Large,11.34,1,1,9,75,0,1
+PET0475,Cat,Abyssinian,41,Orange,Small,24.08,1,0,139,25,0,0
+PET0476,Bird,Cockatiel,113,Brown,Small,27.2,1,0,10,100,0,1
+PET0477,Dog,German Shepherd,3,Mixed,Small,17.99,1,0,214,100,1,1
+PET0478,Cat,Maine Coon,6,Mixed,Medium,18.11,1,0,273,100,0,0
+PET0479,Bird,Parakeet,5,Gray,Large,29.12,0,0,324,25,0,0
+PET0480,Cat,Scottish Fold,5,Mixed,Small,1.12,1,0,48,75,1,0
+PET0481,Cat,Maine Coon,54,Brown,Medium,13.97,0,0,111,75,1,0
+PET0482,Cat,Maine Coon,47,Orange,Small,32.84,0,0,153,150,0,0
+PET0483,Cat,Ragdoll,87,Mixed,Small,24.33,0,0,123,75,0,0
+PET0484,Cat,Maine Coon,49,Gray,Medium,13.82,1,1,357,75,0,0
+PET0485,Cat,Maine Coon,9,Brown,Small,36.27,1,0,102,100,1,0
+PET0486,Rabbit,Holland Lop,99,Black,Medium,31.02,0,0,241,100,1,0
+PET0487,Dog,Chihuahua,20,White,Medium,10.96,1,0,321,75,1,0
+PET0488,Dog,Golden Retriever,113,White,Medium,25.99,1,1,191,75,0,0
+PET0489,Bird,Finch,61,Black,Small,24.03,0,1,217,75,1,0
+PET0490,Rabbit,Holland Lop,106,Mixed,Large,16.35,1,0,51,150,0,0
+PET0491,Cat,Persian,35,White,Medium,14.99,1,0,292,75,0,1
+PET0492,Cat,Bengal,50,White,Large,14.07,1,0,81,150,0,1
+PET0493,Dog,Beagle,82,Black,Small,24.88,1,0,88,75,0,0
+PET0494,Dog,Dachshund,62,Mixed,Small,17.98,0,0,194,150,0,0
+PET0495,Cat,Ragdoll,17,Mixed,Small,33.36,1,1,104,100,1,0
+PET0496,Dog,German Shepherd,88,Black,Small,26.95,1,0,271,75,1,0
+PET0497,Cat,Bengal,3,Mixed,Medium,3.26,1,0,96,150,0,1
+PET0498,Dog,Labrador,32,Mixed,Large,25.79,0,1,198,25,0,0
+PET0499,Bird,Parakeet,99,Brown,Medium,11.21,1,0,1,150,0,1
+PET0500,Bird,Canary,102,Brown,Small,23.92,1,0,167,100,0,0

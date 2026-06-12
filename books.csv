@@ -1,0 +1,66 @@
+isbn,title,author,genre,avg_rating,ratings_count,publish_year,publisher,pages,cover_url,synopsis
+978-0-06-112008-4,Cien anos de soledad,Gabriel Garcia Marquez,Realismo Magico,4.8,3200000,1967,Sudamericana,471,https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg,"La historia de la familia Buendía en el pueblo ficticio de Macondo, siguiendo varias generaciones marcadas por el amor, la soledad y acontecimientos extraordinarios."
+978-0-7432-7356-5,El amor en los tiempos del colera,Gabriel Garcia Marquez,Romance,4.6,1800000,1985,Oveja Negra,460,https://covers.openlibrary.org/b/isbn/9780307389732-L.jpg,"Florentino Ariza espera durante décadas la oportunidad de reencontrarse con Fermina Daza, explorando el amor, el paso del tiempo y la perseverancia."
+978-84-204-8140-5,La sombra del viento,Carlos Ruiz Zafon,Misterio,4.7,2100000,2001,Planeta,565,https://covers.openlibrary.org/b/isbn/9788408163435-L.jpg,Un joven descubre una novela misteriosa en el Cementerio de los Libros Olvidados y se ve envuelto en una intriga literaria llena de secretos.
+978-84-376-0494-7,El juego del angel,Carlos Ruiz Zafon,Misterio,4.5,980000,2008,Planeta,600,https://covers.openlibrary.org/b/isbn/9788408079569-L.jpg,"Un escritor recibe una propuesta inquietante para crear un libro único, desencadenando una trama oscura de misterio y ambición."
+978-84-233-3482-3,Ficciones,Jorge Luis Borges,Cuento,4.7,1500000,1944,Emece,224,https://covers.openlibrary.org/b/isbn/9788420633787-L.jpg,"Colección de relatos de Jorge Luis Borges que exploran laberintos, bibliotecas infinitas, realidades alternativas y paradojas filosóficas."
+978-84-376-0617-0,La casa de los espiritus,Isabel Allende,Realismo Magico,4.6,1200000,1982,Plaza y Janes,490,https://covers.openlibrary.org/b/isbn/9781501117015-L.jpg,"Saga familiar que mezcla historia, política y elementos sobrenaturales a través de varias generaciones de la familia Trueba."
+978-84-322-0839-7,Como agua para chocolate,Laura Esquivel,Romance,4.5,980000,1989,Planeta,246,https://covers.openlibrary.org/b/isbn/9780385475525-L.jpg,"Una historia de amor, tradición y cocina mexicana donde las emociones de la protagonista se transmiten a través de sus recetas."
+978-84-663-0750-6,El alquimista,Paulo Coelho,Ficcion,4.2,4500000,1988,Planeta,208,https://covers.openlibrary.org/b/isbn/9780061233845-L.jpg,Sinopsis pendiente de completar.
+978-84-376-0276-9,Pedro Paramo,Juan Rulfo,Realismo Magico,4.5,1100000,1955,FCE,128,https://covers.openlibrary.org/b/isbn/9780802133557-L.jpg,Sinopsis pendiente de completar.
+978-84-08-04007-2,Rayuela,Julio Cortazar,Ficcion,4.4,780000,1963,Sudamericana,736,https://covers.openlibrary.org/b/isbn/9788437604572-L.jpg,Sinopsis pendiente de completar.
+978-84-376-0234-9,Crimen y castigo,Fiodor Dostoievski,Clasico,4.6,2300000,1866,Alianza,671,https://covers.openlibrary.org/b/isbn/9780140449136-L.jpg,Sinopsis pendiente de completar.
+978-84-376-0301-8,El gran Gatsby,F. Scott Fitzgerald,Clasico,4.1,3900000,1925,Alianza,200,https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg,Sinopsis pendiente de completar.
+978-84-376-0345-2,Orgullo y prejuicio,Jane Austen,Romance,4.7,3100000,1813,Alianza,432,https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg,Sinopsis pendiente de completar.
+978-84-376-0678-1,1984,George Orwell,Distopia,4.7,3800000,1949,Alianza,328,https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg,Sinopsis pendiente de completar.
+978-84-376-0512-8,El senor de los anillos,J.R.R. Tolkien,Fantasia,4.8,2900000,1954,Minotauro,1200,https://covers.openlibrary.org/b/isbn/9780618640157-L.jpg,Sinopsis pendiente de completar.
+978-84-450-7882-3,Harry Potter y la piedra filosofal,J.K. Rowling,Fantasia,4.8,5100000,1997,Salamandra,309,https://covers.openlibrary.org/b/isbn/9788478884452-L.jpg,Sinopsis pendiente de completar.
+978-84-450-7883-0,Harry Potter y la camara secreta,J.K. Rowling,Fantasia,4.7,4200000,1998,Salamandra,341,https://covers.openlibrary.org/b/isbn/9788478884469-L.jpg,Sinopsis pendiente de completar.
+978-84-450-7884-7,Harry Potter y el prisionero de Azkaban,J.K. Rowling,Fantasia,4.8,4500000,1999,Salamandra,360,https://covers.openlibrary.org/b/isbn/9788478884476-L.jpg,Sinopsis pendiente de completar.
+978-84-450-7885-4,Harry Potter y el caliz de fuego,J.K. Rowling,Fantasia,4.8,4300000,2000,Salamandra,635,https://covers.openlibrary.org/b/isbn/9788478884490-L.jpg,Sinopsis pendiente de completar.
+978-84-08-10754-1,El codigo Da Vinci,Dan Brown,Thriller,4.0,3200000,2003,Umbriel,689,https://covers.openlibrary.org/b/isbn/9780385504201-L.jpg,Sinopsis pendiente de completar.
+978-84-08-10755-8,Angeles y demonios,Dan Brown,Thriller,4.1,2100000,2000,Umbriel,620,https://covers.openlibrary.org/b/isbn/9780743493468-L.jpg,Sinopsis pendiente de completar.
+978-84-204-6935-9,It,Stephen King,Terror,4.5,1200000,1986,Plaza y Janes,1168,https://covers.openlibrary.org/b/isbn/9781501142970-L.jpg,Sinopsis pendiente de completar.
+978-84-01-01234-5,El resplandor,Stephen King,Terror,4.4,1100000,1977,Debolsillo,447,https://covers.openlibrary.org/b/isbn/9780307743657-L.jpg,Sinopsis pendiente de completar.
+978-84-663-2901-2,Cincuenta sombras de Grey,E.L. James,Romance Adulto,3.7,2800000,2011,Grijalbo,356,https://covers.openlibrary.org/b/isbn/9780345803481-L.jpg,Sinopsis pendiente de completar.
+978-84-08-14501-3,Divergente,Veronica Roth,Distopia,4.2,2500000,2011,Molino,487,https://covers.openlibrary.org/b/isbn/9780062024039-L.jpg,Sinopsis pendiente de completar.
+978-84-08-14502-0,Insurgente,Veronica Roth,Distopia,4.0,1900000,2012,Molino,525,https://covers.openlibrary.org/b/isbn/9780062024053-L.jpg,Sinopsis pendiente de completar.
+978-84-08-11234-7,Los juegos del hambre,Suzanne Collins,Distopia,4.3,3100000,2008,Molino,374,https://covers.openlibrary.org/b/isbn/9780439023481-L.jpg,Sinopsis pendiente de completar.
+978-84-08-11235-4,En llamas,Suzanne Collins,Distopia,4.2,2600000,2009,Molino,400,https://covers.openlibrary.org/b/isbn/9780439023498-L.jpg,Sinopsis pendiente de completar.
+978-84-08-15678-2,Crepusculo,Stephenie Meyer,Romance Fantasia,3.8,2900000,2005,Alfaguara,544,https://covers.openlibrary.org/b/isbn/9780316160179-L.jpg,Sinopsis pendiente de completar.
+978-84-08-15679-9,Luna nueva,Stephenie Meyer,Romance Fantasia,3.6,2400000,2006,Alfaguara,576,https://covers.openlibrary.org/b/isbn/9780316160193-L.jpg,Sinopsis pendiente de completar.
+978-84-666-3802-4,Memorias de una geisha,Arthur Golden,Historica,4.3,1400000,1997,Planeta,480,https://covers.openlibrary.org/b/isbn/9780679781585-L.jpg,Sinopsis pendiente de completar.
+978-84-01-33456-1,El nombre del viento,Patrick Rothfuss,Fantasia,4.7,1600000,2007,Plaza y Janes,872,https://covers.openlibrary.org/b/isbn/9780756404741-L.jpg,Sinopsis pendiente de completar.
+978-84-08-17893-4,La ladrona de libros,Markus Zusak,Drama,4.7,2100000,2005,Debolsillo,554,https://covers.openlibrary.org/b/isbn/9780375842207-L.jpg,Sinopsis pendiente de completar.
+978-84-08-17892-7,El tiempo entre costuras,Maria Duenas,Historica,4.6,1500000,2009,Temas de Hoy,615,https://covers.openlibrary.org/b/isbn/9781476729466-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22006-6,Bajo la misma estrella,John Green,Drama,4.6,3200000,2012,Nube de Tinta,313,https://covers.openlibrary.org/b/isbn/9780525478812-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22007-3,Buscando a Alaska,John Green,Drama,4.4,2100000,2005,Nube de Tinta,272,https://covers.openlibrary.org/b/isbn/9780525475064-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22004-2,A todos los chicos de los que me enamoro,Jenny Han,Romance,4.5,1700000,2014,Nube de Tinta,368,https://covers.openlibrary.org/b/isbn/9781442426702-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22001-1,Heartstopper,Alice Oseman,Romance,4.8,1900000,2018,Salamandra,294,https://covers.openlibrary.org/b/isbn/9781444951387-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22002-8,Simon vs la agenda homo sapiens,Becky Albertalli,Romance,4.5,1200000,2015,Puck,320,https://covers.openlibrary.org/b/isbn/9780062348678-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22009-7,Eleanor y Park,Rainbow Rowell,Romance,4.5,1400000,2013,Debolsillo,352,https://covers.openlibrary.org/b/isbn/9781250012579-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22015-8,It ends with us,Colleen Hoover,Romance Drama,4.6,3800000,2016,Planeta,376,https://covers.openlibrary.org/b/isbn/9781501110368-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22016-5,Ugly Love,Colleen Hoover,Romance,4.5,2900000,2014,Planeta,332,https://covers.openlibrary.org/b/isbn/9781476753188-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22019-6,Verity,Colleen Hoover,Thriller,4.7,3200000,2018,Planeta,336,https://covers.openlibrary.org/b/isbn/9781538724736-L.jpg,Sinopsis pendiente de completar.
+978-84-08-22017-2,November 9,Colleen Hoover,Romance,4.6,2500000,2015,Planeta,310,https://covers.openlibrary.org/b/isbn/9781501110375-L.jpg,Sinopsis pendiente de completar.
+978-WATT-00001-1,After (Despues),Anna Todd,Romance,4.1,4200000,2014,Wattpad/Planeta,582,https://covers.openlibrary.org/b/isbn/9781476792484-L.jpg,Sinopsis pendiente de completar.
+978-WATT-00002-2,After 2 En mil pedazos,Anna Todd,Romance,4.0,3100000,2015,Wattpad/Planeta,612,https://covers.openlibrary.org/b/isbn/9781501130502-L.jpg,Sinopsis pendiente de completar.
+978-WATT-00005-5,The Kissing Booth,Beth Reekles,Romance,3.9,1800000,2012,Wattpad/HarperCollins,432,https://covers.openlibrary.org/b/isbn/9780385742764-L.jpg,Sinopsis pendiente de completar.
+978-WATT-00007-7,Quimica entre nosotros,Wattpad Original,Romance,4.3,2900000,2017,Wattpad,340,https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00008-8,El chico de al lado,Wattpad Original,Romance,4.4,3100000,2018,Wattpad,310,https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00009-9,Mas que amigos,Wattpad Original,Romance,4.2,2700000,2019,Wattpad,295,https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00010-0,Tu y yo contra el mundo,Wattpad Original,Romance,4.5,3400000,2020,Wattpad,325,https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00013-3,Secretos de verano,Wattpad Original,Romance,4.4,2500000,2020,Wattpad,288,https://images.unsplash.com/photo-1531901599143-df5010ab9438?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00014-4,Nuestro ultimo verano,Wattpad Original,Romance,4.6,3800000,2021,Wattpad,302,https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00015-5,El amor que no fue,Wattpad Original,Drama,4.3,2100000,2019,Wattpad,275,https://images.unsplash.com/photo-1455885661740-29cbf08a42fa?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00016-6,Entre sombras te encontre,Wattpad Original,Fantasia,4.5,2600000,2020,Wattpad,368,https://images.unsplash.com/photo-1518744386442-2d48ac47a7eb?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00017-7,La chica del libro,Wattpad Original,Romance,4.4,2900000,2021,Wattpad,315,https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00018-8,Un cafe contigo,Wattpad Original,Romance,4.6,3200000,2022,Wattpad,280,https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00020-0,Mi guardian de estrellas,Wattpad Original,Fantasia,4.7,4100000,2022,Wattpad,420,https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00023-3,Promesas bajo la lluvia,Wattpad Original,Romance,4.5,3500000,2022,Wattpad,330,https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00024-4,El chico que me rompio,Wattpad Original,Drama,4.4,2800000,2022,Wattpad,298,https://images.unsplash.com/photo-1497366216548-37526070297c?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00025-5,Volver a empezar contigo,Wattpad Original,Romance,4.6,3900000,2023,Wattpad,345,https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00026-6,Boulevard,Flor M. Salvador,Romance Drama,4.8,4500000,2015,Wattpad,420,https://images.unsplash.com/photo-1532012197267-da84d127e765?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00027-3,La teoria de Kim,Wattpad Original,Romance,4.7,3800000,2017,Wattpad,355,https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00028-0,Antes de diciembre,Wattpad Original,Romance Drama,4.8,4100000,2018,Wattpad,390,https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=300&q=80,Sinopsis pendiente de completar.
+978-WATT-00029-7,Cuando no queden mas estrellas que contar,Wattpad Original,Romance,4.9,5200000,2019,Wattpad,410,https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=300&q=80,Sinopsis pendiente de completar.
