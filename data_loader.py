@@ -2,12 +2,10 @@ import pandas as pd
 import streamlit as st
 import os
 
-# Ruta base = carpeta donde está este archivo
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-@st.cache_data
+@st.cache_data(ttl=0)
 def load_pets():
-    # Busca el CSV en la misma carpeta o en subcarpeta data/
     for path in [
         os.path.join(BASE_DIR, "pet_adoption_data.csv"),
         os.path.join(BASE_DIR, "data", "pet_adoption_data.csv"),
@@ -17,7 +15,7 @@ def load_pets():
             return pd.read_csv(path)
     raise FileNotFoundError("No se encontró pet_adoption_data.csv")
 
-@st.cache_data
+@st.cache_data(ttl=0)
 def load_books():
     for path in [
         os.path.join(BASE_DIR, "books.csv"),

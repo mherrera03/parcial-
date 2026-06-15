@@ -39,75 +39,93 @@ def get_cover(book):
 
 PLACEHOLDER = "https://placehold.co/200x300/9575cd/ffffff?text=Sin+Portada"
 
-GRID_STYLE = """
-<style>
-.book-grid{display:grid;gap:14px;}
-.book-grid.cols-3{grid-template-columns:repeat(3,1fr);}
-.book-grid.cols-4{grid-template-columns:repeat(4,1fr);}
-.bcard{border:1px solid #d1c4e9;border-radius:12px;overflow:hidden;
-    background:#fff;display:flex;flex-direction:column;
-    box-shadow:0 2px 8px rgba(0,0,0,.07);
-    transition:transform .15s,box-shadow .15s;}
-.bcard:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(124,111,191,.28);}
-.bcard-cover{position:relative;width:100%;height:220px;
-    overflow:hidden;background:#ede7f6;flex-shrink:0;}
-.bcard-cover img{position:absolute;top:0;left:0;
-    width:100%;height:100%;object-fit:cover;}
-.wbadge{position:absolute;top:8px;right:8px;
-    background:#ff6314;color:#fff;font-size:.58rem;
-    padding:2px 7px;border-radius:20px;font-weight:700;letter-spacing:.5px;}
-.bcard-body{padding:10px 12px;flex:1;display:flex;flex-direction:column;gap:3px;}
-.bcard-title{font-weight:700;color:#4a4080;font-size:13px;line-height:1.3;
-    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
-    overflow:hidden;min-height:34px;}
-.bcard-sub{font-size:11px;color:#666;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-.bcard-rat{font-size:12px;color:#555;margin-top:2px;}
-</style>
-"""
+
+def preload_images(books_list):
+    """
+    Inyecta un bloque JS que precarga todas las URLs de portadas
+    antes de que se rendericen las tarjetas. Esto evita el problema
+    de que Streamlit no muestra la imagen hasta interactuar.
+    """
+    urls = [get_cover(b) for b in books_list]
+    urls_js = ",".join(f'"{u}"' for u in urls)
+    st.markdown(f"""
+    <script>
+    (function(){{
+        var urls=[{urls_js}];
+        urls.forEach(function(u){{
+            var img=new Image();
+            img.src=u;
+        }});
+    }})();
+    </script>
+    """, unsafe_allow_html=True)
+
+
+def _card_html(book):
+    cover  = get_cover(book)
+    title  = str(book.get("title", "")).replace('"', "&quot;")
+    author = str(book.get("author", ""))
+    genre  = str(book.get("genre", ""))
+    rating = book.get("avg_rating", "")
+    wattpad_badge = (
+        '<span style="position:absolute;top:8px;right:8px;background:#ff6314;'
+        'color:#fff;font-size:.58rem;padding:2px 7px;border-radius:20px;'
+        'font-weight:700;letter-spacing:.5px;">WATTPAD</span>'
+        if is_wattpad(book.get("publisher", "")) else ""
+    )
+    return f"""
+    <div style="border:1px solid #d1c4e9;border-radius:12px;overflow:hidden;
+                background:#fff;display:flex;flex-direction:column;
+                box-shadow:0 2px 8px rgba(0,0,0,.07);">
+        <div style="position:relative;width:100%;height:220px;
+                    overflow:hidden;background:#ede7f6;flex-shrink:0;">
+            <img src="{cover}"
+                 onerror="this.onerror=null;this.src='{PLACEHOLDER}'"
+                 style="position:absolute;top:0;left:0;
+                        width:100%;height:100%;object-fit:cover;
+                        display:block;"
+                 alt="{title}"/>
+            {wattpad_badge}
+        </div>
+        <div style="padding:10px 12px;flex:1;display:flex;
+                    flex-direction:column;gap:3px;">
+            <div style="font-weight:700;color:#4a4080;font-size:13px;
+                        line-height:1.3;overflow:hidden;
+                        display:-webkit-box;-webkit-line-clamp:2;
+                        -webkit-box-orient:vertical;min-height:34px;">
+                {title}
+            </div>
+            <div style="font-size:11px;color:#666;white-space:nowrap;
+                        overflow:hidden;text-overflow:ellipsis;">{author}</div>
+            <div style="font-size:11px;color:#666;white-space:nowrap;
+                        overflow:hidden;text-overflow:ellipsis;">{genre}</div>
+            <div style="font-size:12px;color:#555;margin-top:2px;">⭐ {rating}</div>
+        </div>
+    </div>"""
 
 
 def _row_html(chunk, cols):
-    """Devuelve HTML de una fila de tarjetas, incluyendo el <style>."""
-    cards = ""
-    for book in chunk:
-        cover  = get_cover(book)
-        badge  = '<span class="wbadge">WATTPAD</span>' if is_wattpad(book.get("publisher", "")) else ""
-        title  = str(book.get("title", ""))
-        author = str(book.get("author", ""))
-        genre  = str(book.get("genre", ""))
-        rating = book.get("avg_rating", "")
-        cards += f"""
-        <div class="bcard">
-            <div class="bcard-cover">
-                <img src="{cover}" onerror="this.src='{PLACEHOLDER}'" loading="lazy" alt="{title}"/>
-                {badge}
-            </div>
-            <div class="bcard-body">
-                <div class="bcard-title">{title}</div>
-                <div class="bcard-sub">{author}</div>
-                <div class="bcard-sub">{genre}</div>
-                <div class="bcard-rat">⭐ {rating}</div>
-            </div>
-        </div>"""
-    return f'{GRID_STYLE}<div class="book-grid cols-{cols}">{cards}</div>'
+    cards = "".join(_card_html(book) for book in chunk)
+    return (
+        f'<div style="display:grid;gap:14px;'
+        f'grid-template-columns:repeat({cols},1fr);">'
+        f'{cards}</div>'
+    )
 
 
 def render_cards_with_buttons(books_list, cols=3, key_prefix="g"):
-    """
-    Renderiza tarjetas en filas. Cada fila es un bloque HTML autónomo
-    (incluye su propio <style>) seguido de botones reales de Streamlit.
-    """
     clicked = None
-    rows = (len(books_list) + cols - 1) // cols
 
+    # Precarga todas las imágenes antes de renderizar
+    preload_images(books_list)
+
+    rows = (len(books_list) + cols - 1) // cols
     for row in range(rows):
         start = row * cols
         chunk = books_list[start: start + cols]
 
-        # Bloque HTML con CSS incluido — siempre se aplica
         st.markdown(_row_html(chunk, cols), unsafe_allow_html=True)
 
-        # Botones reales alineados debajo
         btn_cols = st.columns(cols)
         for j in range(len(chunk)):
             with btn_cols[j]:
@@ -129,7 +147,6 @@ def mostrar_detalle(book, df):
         st.rerun()
 
     st.markdown("---")
-
     col1, col2 = st.columns([1, 2])
 
     with col1:
@@ -143,7 +160,7 @@ def mostrar_detalle(book, df):
         st.markdown(f"Editorial: {book['publisher']}")
         st.markdown(f"Ano: {int(book['publish_year'])}")
         st.markdown(f"Paginas: {int(book['pages'])}")
-        st.markdown(f"⭐ Calificacion: {book['avg_rating']}/5")
+        st.markdown(f"Calificacion: {book['avg_rating']}/5")
         st.markdown(f"Votos: {int(book['ratings_count']):,}")
 
         st.markdown("**Sinopsis**")
@@ -172,7 +189,7 @@ def mostrar_detalle(book, df):
             st.session_state["modal_book"] = sim_list[clicked]
             st.rerun()
 
-
+st.cache_data.clear()
 def show():
     st.markdown("""
     <div style='background:linear-gradient(135deg,#4a3f8f,#7c6fbf,#9575cd);
@@ -206,7 +223,6 @@ def show():
     st.markdown("---")
     tab1, tab2, tab3 = st.tabs(["Por Libro", "Por Preferencias", "Catalogo"])
 
-    # ── Tab 1 ──────────────────────────────────────────────────────────────
     with tab1:
         st.subheader("Recomendaciones basadas en un libro que te gusto")
         filtro_g  = st.multiselect("Filtrar lista por genero:", genres, key="t1g")
@@ -237,7 +253,6 @@ def show():
                 st.session_state["modal_book"] = books_list[clicked]
                 st.rerun()
 
-    # ── Tab 2 ──────────────────────────────────────────────────────────────
     with tab2:
         st.subheader("Recomendaciones segun tus gustos")
         c1, c2 = st.columns(2)
@@ -274,7 +289,6 @@ def show():
                     st.session_state["modal_book"] = books_list[clicked]
                     st.rerun()
 
-    # ── Tab 3 ──────────────────────────────────────────────────────────────
     with tab3:
         st.subheader("Catalogo Completo")
         c1, c2, c3 = st.columns(3)

@@ -1,7 +1,20 @@
 import streamlit as st
+import os
+import base64
+
+def get_foto_base64():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    for ext in ["jpg", "jpeg", "png", "webp"]:
+        path = os.path.join(base_dir, f"yo.{ext}")
+        if os.path.exists(path):
+            with open(path, "rb") as f:
+                data = base64.b64encode(f.read()).decode()
+            mime = "jpeg" if ext in ["jpg", "jpeg"] else ext
+            return f"data:image/{mime};base64,{data}"
+    return None
+
 
 def show():
-    # ── Hero / Banner ─────────────────────────────────────────────────────────
     st.markdown("""
     <div style='background: linear-gradient(135deg, #7c6fbf 0%, #5c5096 100%);
                 padding: 2.5rem; border-radius: 16px; color: white;
@@ -16,18 +29,18 @@ def show():
     </div>
     """, unsafe_allow_html=True)
 
-    # ── Perfil profesional ────────────────────────────────────────────────────
-    st.markdown("## 👩‍💻 Sobre mí")
+    st.markdown("Sobre mí")
 
     col_foto, col_bio = st.columns([1, 2], gap="large")
 
     with col_foto:
-        # INSTRUCCIÓN: Reemplaza la URL de abajo con el link directo a tu foto.
-        # Puedes subirla a GitHub, Imgur, o incluirla como archivo local con st.image("mi_foto.jpg").
-        FOTO_URL = "https://placehold.co/300x300/7c6fbf/ffffff?text=Tu+Foto"
+        foto_src = get_foto_base64()
+        if foto_src is None:
+            foto_src = "https://placehold.co/300x300/7c6fbf/ffffff?text=Tu+Foto"
+
         st.markdown(f"""
         <div style='text-align:center;'>
-            <img src="{FOTO_URL}"
+            <img src="{foto_src}"
                  style='width:200px; height:200px; border-radius:50%;
                         border: 4px solid #9575cd;
                         box-shadow: 0 4px 16px rgba(124,111,191,0.35);
@@ -60,43 +73,25 @@ def show():
 
     st.markdown("---")
 
-    # ── Video de Data Storytelling ────────────────────────────────────────────
-    st.markdown("## 🎬 Demo: Data Storytelling")
+    st.markdown("Demo: Data Storytelling")
     st.markdown("Presentación del análisis exploratorio y machine learning aplicado al dataset de adopción de mascotas.")
 
-    # INSTRUCCIÓN: Reemplaza VIDEO_URL con tu link de YouTube.
-    # Formato correcto: https://www.youtube.com/embed/TU_ID_DE_VIDEO
-    # Ejemplo: si tu link es https://youtu.be/abc123, pon https://www.youtube.com/embed/abc123
-    VIDEO_URL = ""  # ← Pega aquí tu link embed de YouTube
-
-    if VIDEO_URL:
-        st.markdown(f"""
-        <div style='border-radius:14px; overflow:hidden;
-                    box-shadow: 0 4px 20px rgba(124,111,191,0.25); margin-bottom:1rem;'>
-            <iframe width="100%" height="450"
-                src="{VIDEO_URL}"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                style="display:block;">
-            </iframe>
-        </div>
-        """, unsafe_allow_html=True)
-    else:
-        st.markdown("""
-        <div style='background:#ede7f6; border-radius:12px; padding:2rem;
-                    text-align:center; border:2px dashed #9575cd; margin-bottom:1rem;'>
-            <p style='color:#7c6fbf; font-size:1rem; margin:0;'>
-                🎬 Video de Data Storytelling — Próximamente<br>
-                <small style='color:#999;'>Reemplaza VIDEO_URL en inicio.py con tu link de YouTube embed</small>
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
+    st.markdown("""
+    <div style='border-radius:14px; overflow:hidden;
+                box-shadow: 0 4px 20px rgba(124,111,191,0.25); margin-bottom:1rem;'>
+        <iframe width="100%" height="450"
+            src="https://www.youtube.com/embed/hRo_MyOcruo"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="display:block;">
+        </iframe>
+    </div>
+    """, unsafe_allow_html=True)
 
     st.markdown("---")
 
-    # ── Tarjetas de navegación ────────────────────────────────────────────────
-    st.markdown("## 🗂️ Contenido del Portafolio")
+    st.markdown("## Contenido del Portafolio")
 
     card_style = """
     <div style='background:{bg}; border-radius:14px; padding:1.5rem;
@@ -112,19 +107,19 @@ def show():
     col1, col2, col3 = st.columns(3)
     with col1:
         st.markdown(card_style.format(
-            bg="#ede7f6", border="#d1c4e9", title="#4a4080", icono="📊",
+            bg="#ede7f6", border="#d1c4e9", title="#4a4080", icono="",
             titulo="Análisis Exploratorio",
             desc="Estadísticas, gráficos e hipótesis sobre el dataset de adopción."
         ), unsafe_allow_html=True)
     with col2:
         st.markdown(card_style.format(
-            bg="#e8eaf6", border="#c5cae9", title="#3f3a7a", icono="🤖",
+            bg="#e8eaf6", border="#c5cae9", title="#3f3a7a", icono="",
             titulo="Aprendizaje Automático",
             desc="Modelos predictivos para estimar la probabilidad de adopción."
         ), unsafe_allow_html=True)
     with col3:
         st.markdown(card_style.format(
-            bg="#e3f2fd", border="#b3d9f7", title="#3a6080", icono="📚",
+            bg="#e3f2fd", border="#b3d9f7", title="#3a6080", icono="",
             titulo="Recomendación de Libros",
             desc="Sistema inteligente de recomendación literaria personalizada."
         ), unsafe_allow_html=True)
@@ -134,26 +129,25 @@ def show():
     col4, col5, col6 = st.columns(3)
     with col4:
         st.markdown(card_style.format(
-            bg="#f3e5f5", border="#e1bee7", title="#6a1f80", icono="📁",
+            bg="#f3e5f5", border="#e1bee7", title="#6a1f80", icono="",
             titulo="Carga de Archivos",
             desc="Carga un CSV o Excel y visualiza sus datos con gráficos automáticos."
         ), unsafe_allow_html=True)
     with col5:
         st.markdown(card_style.format(
-            bg="#fce4ec", border="#f8bbd0", title="#7b1f3a", icono="💬",
+            bg="#fce4ec", border="#f8bbd0", title="#7b1f3a", icono="",
             titulo="Análisis de Sentimientos",
             desc="Extrae opiniones de la web y analiza su sentimiento con TextBlob."
         ), unsafe_allow_html=True)
     with col6:
         st.markdown(card_style.format(
-            bg="#e8f5e9", border="#c8e6c9", title="#2e7d32", icono="🧠",
+            bg="#e8f5e9", border="#c8e6c9", title="#2e7d32", icono="",
             titulo="Interfaz IA",
             desc="Chat inteligente para consultar datos y conceptos de Machine Learning."
         ), unsafe_allow_html=True)
 
     st.markdown("---")
 
-    # ── Sobre el dataset ──────────────────────────────────────────────────────
     st.markdown("## 🐾 Sobre el Dataset")
     st.markdown("""
     Esta aplicación fue desarrollada como parte de la **Tarea Laboratorio I y II — Cómputo 3**
@@ -184,4 +178,4 @@ def show():
     col3.metric("Tipos de Mascotas", "4")
     col4.metric("Variable Objetivo", "AdoptionLikelihood")
 
-    st.info("💡 Usa el menú lateral para navegar entre todas las secciones del portafolio.")
+    st.info(" Usa el menú lateral para navegar entre todas las secciones del portafolio.")

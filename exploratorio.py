@@ -14,7 +14,7 @@ def show():
         " Descripción del Dataset",
         " Descripción de Campos",
         " Navegador del Dataset",
-        " Buscador por Código (Bonus)",
+        " Buscador por Código",
         " Graficador Exploratorio",
         " Hipótesis"
     ])

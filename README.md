@@ -1,13 +1,13 @@
 # Portafolio de Ciencia de Datos — Mariana Herrera Márquez
-## Técnica Electiva I - Ciencia de Datos | UGB Ciclo I-2026
+## Ciencia de Datos 
 
 ### Estructura del proyecto
 ```
 pet_adoption_app/
-├── app.py                  # Archivo principal (navegación y estilos)
+├── app.py                  # Archivo principal 
 ├── data_loader.py          # Carga de datos
 ├── requirements.txt        # Dependencias
-├── pet_adoption_data.csv   # Dataset principal (500 registros)
+├── pet_adoption_data.csv   # Dataset principal 
 ├── books.csv               # Dataset para recomendación de libros
 ├── .streamlit/
 │   └── config.toml         # Tema visual
@@ -16,7 +16,7 @@ pet_adoption_app/
 ├── exploratorio.py         # Análisis Exploratorio
 ├── ml.py                   # Aprendizaje Automático
 ├── recomendacion.py        # Sistema de Recomendación de Libros
-├── interfaz_ia.py          # Interfaz IA (chat sin API)
+├── interfaz_ia.py          # Interfaz IA
 ├── carga_archivos.py       # Carga de CSV/Excel
 └── sentimientos.py         # Análisis de Sentimientos + Scraping
 ```
